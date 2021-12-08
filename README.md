@@ -17,9 +17,9 @@ Check the **Environment** section at the end of this README if you want to know 
 
 ## Getting started with xarray
 
-Before we start and get to the heart of the matter, we will begin with a simple example notebook to get to know `xarray`. Click on the Binder button to start a session (or launch it on your personal machine if you installed the environment), then open the notebook: `01_xarray_get_started.ipynb`.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mickaellalande/ERCA/main) : `01_xarray_get_started.ipynb`
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mickaellalande/ERCA/main)
+Before we start and get to the heart of the matter, we will begin with a simple example notebook to get to know `xarray`. Click on the Binder button to start a session (or launch it on your personal machine if you installed the environment), then open the notebook: `01_xarray_get_started.ipynb`.
 
 - Load an example dataset
 - Plot with xarray
@@ -31,6 +31,8 @@ Before we start and get to the heart of the matter, we will begin with a simple 
 - Check versions
 
 ## Exploring ERA5 data
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mickaellalande/ERCA/main) : `02_ERA5.ipynb`
 
 Now that we've got the hang of xarray, let's apply it to real data! Open the notebook `02_ERA5.ipynb` and follow the instructions.
 
