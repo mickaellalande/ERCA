@@ -13,11 +13,9 @@ We will download the Copernicus ERA5 reanalysis data from the European Centre fo
 - [xesmf](https://xesmf.readthedocs.io/en/latest/): Universal Regridder for Geospatial Data (only for Linux and Mac, an alternative is the [interp](http://xarray.pydata.org/en/stable/interpolation.html#example) function from xarray)
 - [intake-esm](https://intake-esm.readthedocs.io/en/stable/): an intake plugin for parsing an Earth System Model (ESM) catalog and loading assets into xarray datasets
 
-Check the **Environment** section at the end of this README if you want to know more about the environment and/or if you want to install it on your local machine.
+Check the **Environment** section at the end of this README if you want to know more about the environment and/or to install it on your local machine.
 
 ## Getting started with xarray
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mickaellalande/ERCA/main) : `01_xarray_get_started.ipynb`
 
 Before we start and get to the heart of the matter, we will begin with a simple example notebook to get to know `xarray`. Click on the Binder button to start a session (or launch it on your personal machine if you installed the environment), then open the notebook: `01_xarray_get_started.ipynb`.
 
@@ -32,8 +30,6 @@ Before we start and get to the heart of the matter, we will begin with a simple 
 
 ## Exploring ERA5 data
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mickaellalande/ERCA/main) : `02_ERA5.ipynb`
-
 Now that we've got the hang of xarray, let's apply it to real data! Open the notebook `02_ERA5.ipynb` and follow the instructions.
 
 - Download ERA5 / Read file
@@ -42,16 +38,15 @@ Now that we've got the hang of xarray, let's apply it to real data! Open the not
 - Seasonal and regional plots
 - Compute trends
 
-## Comparison with CMIP6 models
+## ERA5 comparison with CMIP6 models
 
-https://github.com/mickaellalande/intake_CMIP6/blob/main/README.md
-https://github.com/mickaellalande/MC-Toolkit/tree/master/intake
-https://intake-esm.readthedocs.io/en/stable/
+In this part, we will compare ERA5 to CMIP6 model outputs: `03_intake_CMIP6.ipynb`
 
-- select one model from your country
-- compare to ERA5
-- show future projections 
-- share again on a whiteboard the results of your country
+- Get CMIP6 model with `intake-esm`
+- Visualize data
+- Compare to ERA5 (regrid)
+- Plot global bias
+- Plot time series with projections
 
 ## Show Dask parallel (if time)
 - in local show open_mfdataset

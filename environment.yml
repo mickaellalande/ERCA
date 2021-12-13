@@ -7,6 +7,7 @@ dependencies:
   - python=3.8.5
   - xarray=0.19.0
   - pooch=1.5.2 # for xarray tutorial functions
+  - nc-time-axis=1.4.0 # to deal with some time axis
   - proplot=0.6.4
   - matplotlib=3.2.0
   - cartopy=0.17.0
