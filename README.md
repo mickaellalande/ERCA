@@ -15,7 +15,7 @@ We will download the Copernicus ERA5 reanalysis data from the European Centre fo
 
 Check the **Environment** section at the end of this README if you want to know more about the environment and/or to install it on your local machine.
 
-## Getting started with xarray
+## 1. Getting started with xarray
 
 Before we start and get to the heart of the matter, we will begin with a simple example notebook to get to know `xarray`. Click on the Binder button to start a session (or launch it on your personal machine if you installed the environment), then open the notebook: `01_xarray_get_started.ipynb`.
 
@@ -28,7 +28,7 @@ Before we start and get to the heart of the matter, we will begin with a simple 
 - Make projected plots (cartopy / proplot)
 - Check versions
 
-## Exploring ERA5 data
+## 2. Exploring ERA5 data
 
 Now that we've got the hang of xarray, let's apply it to real data! Open the notebook `02_ERA5.ipynb` and follow the instructions.
 
@@ -38,7 +38,7 @@ Now that we've got the hang of xarray, let's apply it to real data! Open the not
 - Seasonal and regional plots
 - Compute trends
 
-## ERA5 comparison with CMIP6 models
+## 3. ERA5 comparison with CMIP6 models
 
 In this part, we will compare ERA5 to CMIP6 model outputs: `03_intake_CMIP6.ipynb`
 
@@ -48,12 +48,14 @@ In this part, we will compare ERA5 to CMIP6 model outputs: `03_intake_CMIP6.ipyn
 - Plot global bias
 - Plot time series with projections
 
-## Show Dask parallel (if time)
+## 3 bis. Data analysis with pandas
+
+TODO
+
+## 4. Show Dask parallel (optional, if time)
 - in local show open_mfdataset
 - and parallel mean for example
-- give links for more 
-
-/!\ Pensez à faire un clear outputs avant de mettre la chose en ligne ! (ou alors créer une branch solution) /!\
+- https://github.com/dask/dask-tutorial
 
 
 ## Environment
