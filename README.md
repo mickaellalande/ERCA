@@ -50,7 +50,7 @@ In this part, we will compare ERA5 to CMIP6 model outputs: `03_intake_CMIP6.ipyn
 
 ## 3 bis. Data analysis with pandas
 
-TODO
+Our objective here is to introduce you to pandas as this library has become the python workhorse for analysing any dataset that most chemists (or biologists) would naturally handle in excel: `03bis_pandas_for_beginners.ipynb`
 
 ## 4. Show Dask parallel (optional, if time)
 - in local show open_mfdataset
