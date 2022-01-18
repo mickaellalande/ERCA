@@ -27,4 +27,5 @@ dependencies:
   - jupyter
   - gcsfs # Google Cloud (for intake-esm)
   - zarr # similar to netCDF but more performant (for intake also)
+  - cdsapi # usefull to access copernicus data store directly
 
