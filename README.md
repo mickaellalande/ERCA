@@ -17,7 +17,7 @@ Check the **Environment** section at the end of this README if you want to know 
 
 ## 1. Getting started with xarray
 
-Before we start and get to the heart of the matter, we will begin with a simple example notebook to get to know `xarray`. Click on the Binder button to start a session (or launch it on your personal machine if you installed the environment), then open the notebook: `01_xarray_get_started.ipynb`.
+Before we start and get to the heart of the matter, we will begin with a simple example notebook to get to know `xarray`. Click on the Binder button to start a session (or launch it on your personal machine if you installed the environment), then open the notebook: [01_xarray_get_started.ipynb](01_xarray_get_started.ipynb).
 
 - Load an example dataset
 - Plot with xarray
@@ -30,7 +30,7 @@ Before we start and get to the heart of the matter, we will begin with a simple 
 
 ## 2. Exploring ERA5 data
 
-Now that we've got the hang of xarray, let's apply it to real data! Open the notebook `02_ERA5.ipynb` and follow the instructions.
+Now that we've got the hang of xarray, let's apply it to real data! Open the notebook [02_ERA5.ipynb](02_ERA5.ipynb) and follow the instructions.
 
 - Download ERA5 / Read file
 - Check size / Make chunks
@@ -40,7 +40,7 @@ Now that we've got the hang of xarray, let's apply it to real data! Open the not
 
 ## 3. ERA5 comparison with CMIP6 models
 
-In this part, we will compare ERA5 to CMIP6 model outputs: `03_intake_CMIP6.ipynb`
+In this part, we will compare ERA5 to CMIP6 model outputs: [03_intake_CMIP6.ipynb](03_intake_CMIP6.ipynb)
 
 - Get CMIP6 model with `intake-esm`
 - Visualize data
@@ -50,7 +50,7 @@ In this part, we will compare ERA5 to CMIP6 model outputs: `03_intake_CMIP6.ipyn
 
 ## 3 bis. Data analysis with pandas
 
-Our objective here is to introduce you to pandas as this library has become the python workhorse for analysing any dataset that most chemists (or biologists) would naturally handle in excel: `03bis_pandas_for_beginners.ipynb`
+Our objective here is to introduce you to pandas as this library has become the python workhorse for analysing any dataset that most chemists (or biologists) would naturally handle in excel: [03bis_pandas_for_beginners.ipynb](03bis_pandas_for_beginners.ipynb)
 
 ## 4. Show Dask parallel (optional, if time)
 - in local show open_mfdataset
@@ -60,9 +60,9 @@ Our objective here is to introduce you to pandas as this library has become the 
 
 ## Environment
 
-Note that we will be working with an already pre-installed environment with [binder](https://mybinder.org/). If you want to install the same environment on your machine, you can do it directly by typing the command `conda env create -f environment.yml` using the environment file `environment.yml` from this repository (only functional under Linux, otherwise you can remove the `xesmf` package from the file for Windows). You need to have [Anaconda](https://www.anaconda.com/products/individual) or [Minconda](https://docs.conda.io/en/latest/miniconda.html) already pre-installed on your machine. If not, for Linux users, you can check this (steps 2, 3, and 4; the rest is to install it on a server — to adapt for non-Linux machines): https://mickaellalande.github.io/post/tutorial/how-to-install-jupyter-notebook-on-a-server/. For managing your conda environments always come back to the official documentation: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file.
+Note that we will be working with an already pre-installed environment with [binder](https://mybinder.org/). If you want to install the same environment on your machine, you can do it directly by typing the command `conda env create -f environment.yml` using the environment file [environment.yml](environment.yml) from this repository (only functional under Linux, otherwise you can remove the `xesmf` package from the file for Windows). You need to have [Anaconda](https://www.anaconda.com/products/individual) or [Minconda](https://docs.conda.io/en/latest/miniconda.html) already pre-installed on your machine. If not, for Linux users, you can check this (steps 2, 3, and 4; the rest is to install it on a server — to adapt for non-Linux machines): https://mickaellalande.github.io/post/tutorial/how-to-install-jupyter-notebook-on-a-server/. For managing your conda environments always come back to the official documentation: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file.
 
-The package versions can be found in the `environment.yml` file. Be careful if you want to upgrade this environment, because there are often conflicts between some packages (e.g., version 0.6.4 of proplot does not work with version 3.3 of matplotlib, or cartopy does not work with the latest version 3.9 of python... but this can have already evolved at the time of this session). Be particularly careful with Proplot which is a package under development and which evolves very quickly, including changes of syntax, thus refer to version 0.6.4 for these practical works: https://proplot.readthedocs.io/en/v0.6.4/.
+The package versions can be found in the [environment.yml](environment.yml) file. Be careful if you want to upgrade this environment, because there are often conflicts between some packages (e.g., version 0.6.4 of proplot does not work with version 3.3 of matplotlib, or cartopy does not work with the latest version 3.9 of python... but this can have already evolved at the time of this session). Be particularly careful with Proplot which is a package under development and which evolves very quickly, including changes of syntax, thus refer to version 0.6.4 for these practical works: https://proplot.readthedocs.io/en/v0.6.4/.
 
 Some issues related with this environment:
 - xESFM installation: https://github.com/JiaweiZhuang/xESMF/issues/47
